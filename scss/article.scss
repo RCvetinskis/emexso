@@ -1,0 +1,83 @@
+article  {
+    max-width: 100%;
+    height: 1200px;
+    padding-top: 100px;
+  
+     
+      
+    h3 {
+    
+      color: #fb7c5d;
+      margin: 20px 0 ;
+      font-weight: 700;
+      font-size: 1.2em;
+    }
+    h2 {
+      color: #0c2461;
+      margin:  20px 0;
+      font-weight: 700;
+      font-size: 2.3em;
+      
+    }
+    
+    }
+    .article-section-container {
+      text-align: center;
+    }
+     
+    .fa-check {
+      color: $logo-btn-color;
+    }
+  
+      .checks-container {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        
+      }
+     
+     li {
+       list-style: none;
+       margin-left:-30px ;
+       margin-bottom: 20px;
+     }
+   
+     span {
+      color: #0c2461;
+      font-size: 1.5em;
+    }
+    .read-more-button {
+      background-color: $logo-btn-color;
+      text-decoration: none;
+      color: white;
+      font-size: 1.5em;
+      border-radius: 5px;
+      padding: 10px;
+      transition: 0.3s;
+   
+  
+      &:hover {
+        background-color: white;
+        color: $logo-btn-color;
+      }
+    }
+    
+    .image-2 {
+      width: 380px !important;
+    
+    
+      
+    }
+    .image-container::before {
+       content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background:  url(../assets/circle-shape.png);
+       opacity: 0.8;
+      background-size: cover;
+      background-repeat: no-repeat;
+    
+      
+    }
+  
+  
