@@ -18,11 +18,13 @@
      display: grid;
      grid-template-columns: 1fr 1fr;
      height: 90vh;
+ 
     }
+   
     .button-price-container {
           display: grid;
              align-items: center;
-          grid-template-columns: 1fr 2fr;
+    
           grid-gap: 10px;
         a {
          width: 200px;
@@ -42,10 +44,24 @@
    .article-section-container h2 {
        font-size: 3.5em;
    }
-   .checks-container {
-       display: flex;
-       justify-content: space-around ;
-   }
+
+}
+@media (min-width: 1200px) {
+    .checks-container {
+        display: flex;
+        justify-content: space-around ;
+    }
+    .section-img-container img {
+        width: 600px;
+      }
+    .grid-container:nth-of-type(2) {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        height: 90vh;
+       }
+       .image-2 {
+           width: 450px!important;
+       }
 }
 @media (max-width: 650px) {
     .read-more-button {
