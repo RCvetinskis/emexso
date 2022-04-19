@@ -8,7 +8,6 @@
     .text-header-container {
         display: flex;
         gap: 24px;
-    
     }
     // main
     .section-img-container img {
@@ -17,12 +16,12 @@
     .grid-container {
      display: grid;
      grid-template-columns: 1fr 1fr;
+   
     }
    
     .button-price-container {
           display: grid;
              align-items: center;
-    
           grid-gap: 10px;
         a {
          width: 200px;
