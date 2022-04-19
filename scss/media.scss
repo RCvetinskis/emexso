@@ -17,8 +17,6 @@
     .grid-container {
      display: grid;
      grid-template-columns: 1fr 1fr;
-     height: 90vh;
- 
     }
    
     .button-price-container {
@@ -57,7 +55,7 @@
     .grid-container:nth-of-type(2) {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        height: 90vh;
+        
        }
        .image-2 {
            width: 450px!important;
